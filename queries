@@ -7,3 +7,15 @@
 SELECT * FROM gdb0041.fact_sales_monthly
 where customer_code = 90002002 and year(date)= 2021
 
+---- change the transaction date to fiscal date, fiscal year starts in the 9th month (september) 
+SELECT * FROM gdb0041.fact_sales_monthly
+where year(date_add(date,interval 4 month)) = 2021 
+
+
+-- joint between fact_sales_monthly table with fact_gross_price table 
+SELECT * FROM gdb0041.fact_sales_monthly s
+
+join fact_gross_price g on
+s.product_code = g.product_code
+where customer_code = 90002002 and 
+year(date_add(date,interval 4 month)) = 2021
