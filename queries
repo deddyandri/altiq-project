@@ -3,6 +3,7 @@
 SELECT * FROM gdb0041.dim_customer
 where customer = "croma"
 
+--- got customer code 90002002
 
 
 -- what are the transactions made by 90002002 customers for 2021
