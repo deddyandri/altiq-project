@@ -4,7 +4,7 @@
 
 - [Project Overview](#Project Overview)
 - [Recomendations](https://github.com/deddyandri/altiq-project/edit/main/README.md#recomendations)
-(https://github.com/deddyandri/altiq-project/edit/main/README.md#recomendations)
+
 ## Steps
 ### download AtliQ database into MySQL Workbench 
 
