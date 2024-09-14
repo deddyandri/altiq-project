@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Project Overview](#Project Overview)
-- [Recomendations](https://github.com/deddyandri/altiq-project/edit/main/README.md#recomendations)
+- [Recomendations](Recomendations)
 
 ## Steps
 ### download AtliQ database into MySQL Workbench 
@@ -60,12 +60,12 @@ The analysis result are summarized as follows :
 
 
 
-### Recomendations
+###Recomendations
 
 Based on the analysis, we recommend the following actions
 
 
-### Limitations
+###Limitations
 
 
 ###  References
