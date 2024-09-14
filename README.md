@@ -6,13 +6,15 @@
 - [Recomendations](Recomendations)
 
 ## Steps
-### download AtliQ database into MySQL Workbench 
-### find customer named croma, to get customer_code 
+### - download AtliQ database into MySQL Workbench 
+### - find customer named croma, to get customer_code 
 ```sql
 SELECT * FROM gdb0041.dim_customer
 where customer = "croma"
 ```
- 
+the result are
+![cust code revealed](https://github.com/user-attachments/assets/fcdafa82-ec06-48ca-b0e1-7ef9e64cb2ed)
+
 
 ### Project Overview
 
