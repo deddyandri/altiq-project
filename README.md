@@ -19,7 +19,7 @@ The report should have the following fields
 
 ## Steps
 ### - download AtliQ database into MySQL Workbench 
-from schema named gdb00041, we get 9 tables
+#### from schema named gdb00041, we get 9 tables
 ![table content](https://github.com/user-attachments/assets/0afea9cd-8fa3-4f3d-9c33-a283989751e9)
 
 ### - find customer named croma, to get customer_code 
