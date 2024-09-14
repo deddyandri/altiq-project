@@ -7,6 +7,9 @@
 
 ## Steps
 ### - download AtliQ database into MySQL Workbench 
+
+![table content](https://github.com/user-attachments/assets/0afea9cd-8fa3-4f3d-9c33-a283989751e9)
+
 ### - find customer named croma, to get customer_code 
 ```sql
 SELECT * FROM gdb0041.dim_customer
